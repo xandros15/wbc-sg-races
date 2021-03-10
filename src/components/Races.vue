@@ -1,6 +1,7 @@
 <template>
     <div>
-        <table class="table" v-if="race">
+        <table class="table tableFixHead" v-if="race">
+            <thead>
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
@@ -18,6 +19,8 @@
                 <th title="Vulnerability">Vul</th>
                 <th>Cost</th>
             </tr>
+            </thead>
+            <tbody>
             <tr v-for="unit in race" :key="unit.id">
                 <td>{{unit.name}}</td>
                 <td>{{unit.tier}}</td>
@@ -43,6 +46,7 @@
                     <Price v-bind="unit.production"></Price>
                 </td>
             </tr>
+            </tbody>
         </table>
     </div>
 </template>
@@ -80,4 +84,11 @@
     .d-block {
         display: block;
     }
+    .tableFixHead { overflow-y: auto; height: 100px; }
+    .tableFixHead thead th { position: sticky; top: 0; }
+
+    /* Just common table stuff. Really. */
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 8px 16px; }
+    th { background: #eee; }
 </style>
