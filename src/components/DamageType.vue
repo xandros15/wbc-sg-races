@@ -14,7 +14,7 @@
   }
 
   export default {
-    props: {type: {require: true, type: Number}},
+    props: {type: {require: true, type: String}},
     name: 'DamageType',
     computed: {
       mapped () {
