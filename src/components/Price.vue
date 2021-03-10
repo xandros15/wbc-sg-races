@@ -3,7 +3,8 @@
         {{gold}}💰<br>
         {{metal}}🛡️<br>
         {{stone}}🗿<br>
-        {{crystal}}💎
+        {{crystal}}💎<br>
+        {{time}}⏳
     </span>
 </template>
 
