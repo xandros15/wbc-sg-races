@@ -1,10 +1,13 @@
 <template>
-    <div>
-        <select title="Chose race" @change="changeRace($event)">
-            <option v-for="race in races" :key="race" :value="race">
-                {{race}}
-            </option>
-        </select>
+    <div class="d-flex justify-content-center">
+        <div class="form-group">
+            <select class="form-control" title="Chose race" @change="changeRace($event)">
+                <option disabled selected value>Select Race</option>
+                <option v-for="race in races" :key="race" :value="race">
+                    {{race}}
+                </option>
+            </select>
+        </div>
     </div>
 </template>
 

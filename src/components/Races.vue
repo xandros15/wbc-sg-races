@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table v-if="race">
+        <table class="table" v-if="race">
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
@@ -77,12 +77,6 @@
 </script>
 
 <style scoped>
-    td, table {
-        border: 1px solid black
-    }
-    td {
-        padding: .3rem
-    }
     .d-block {
         display: block;
     }
