@@ -1,0 +1,340 @@
+[
+  {
+    "name": "Knights",
+    "units": [
+      {
+        "tier": 1,
+        "id": "AHBX"
+      },
+      {
+        "tier": 1,
+        "id": "AHKX"
+      },
+      {
+        "tier": 2,
+        "id": "AHMX"
+      },
+      {
+        "tier": 2,
+        "id": "AHFX"
+      },
+      {
+        "tier": 3,
+        "id": "AHDX"
+      },
+      {
+        "tier": 3,
+        "id": "AHEX"
+      },
+      {
+        "tier": 3,
+        "id": "AHLX"
+      },
+      {
+        "tier": 3,
+        "id": "ASCA"
+      },
+      {
+        "tier": 3,
+        "id": "ASBA"
+      },
+      {
+        "tier": 4,
+        "id": "AAAR"
+      },
+      {
+        "tier": 5,
+        "id": "AHGX"
+      },
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADC"}
+    ]
+  },
+  {
+    "name": "Dwarves",
+    "units": [
+      {"tier": 1, "id": "ADBX"},
+      {"tier": 1, "id": "ADSX"},
+      {"tier": 1, "id": "ADIX"},
+      {"tier": 2, "id": "ADMX"},
+      {"tier": 3, "id": "ADJX"},
+      {"tier": 4, "id": "ADLX"},
+      {"tier": 4, "id": "ADOX"},
+      {"tier": 5, "id": "ADGX"},
+      {"tier": 4, "id": "AAEE"},
+      {"tier": 1, "id": "ADNX"},
+      {"tier": 4, "id": "ASCA"},
+      {"tier": 4, "id": "ASBA"},
+      {"tier": 3, "id": "AAEG"},
+      {"tier": 4, "id": "AARI"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADB"}
+    ]
+  },
+  {
+    "name": "Undead",
+    "units": [
+      {"tier": 1, "id": "AUBX"},
+      {"tier": 1, "id": "AUIX"},
+      {"tier": 1, "id": "AUJX"},
+      {"tier": 2, "id": "AUKX"},
+      {"tier": 2, "id": "AULX"},
+      {"tier": 4, "id": "AUMX"},
+      {"tier": 3, "id": "AUXX"},
+      {"tier": 3, "id": "AUCX"},
+      {"tier": 4, "id": "AUAX"},
+      {"tier": 4, "id": "ASBC"},
+      {"tier": 5, "id": "AUGX"},
+      {"tier": 3, "id": "AABA"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "AADU"}
+    ]
+  },
+  {
+    "name": "Barbarians",
+    "units": [
+      {"tier": 1, "id": "ABBX"},
+      {"tier": 1, "id": "ABIX"},
+      {"tier": 2, "id": "ABCX"},
+      {"tier": 2, "id": "ABDX"},
+      {"tier": 4, "id": "ABEX"},
+      {"tier": 5, "id": "ABGX"},
+      {"tier": 4, "id": "AAEA"},
+      {"tier": 3, "id": "AAEG"},
+      {"tier": 3, "id": "AALH"},
+      {"tier": 4, "id": "AAPE"},
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "AADG"}
+    ]
+  },
+  {
+    "name": "Minotaurs",
+    "units": [
+      {"tier": 1, "id": "ABBX"},
+      {"tier": 1, "id": "AMIX"},
+      {"tier": 3, "id": "AMJX"},
+      {"tier": 4, "id": "AMMX"},
+      {"tier": 2, "id": "AMNX"},
+      {"tier": 2, "id": "AOXX"},
+      {"tier": 4, "id": "ASCA"},
+      {"tier": 4, "id": "ASBA"},
+      {"tier": 5, "id": "AMGX"},
+      {"tier": 3, "id": "AABA"},
+      {"tier": 4, "id": "AARI"},
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "AADW"}
+    ]
+  },
+  {
+    "name": "Orcs",
+    "units": [
+      {"tier": 1, "id": "AOBX"},
+      {"tier": 2, "id": "AOOX"},
+      {"tier": 1, "id": "AOSX"},
+      {"tier": 1, "id": "AOIX"},
+      {"tier": 3, "id": "AOKX"},
+      {"tier": 2, "id": "AOCX"},
+      {"tier": 3, "id": "AOMX"},
+      {"tier": 4, "id": "AONX"},
+      {"tier": 3, "id": "AOJX"},
+      {"tier": 1, "id": "ASGS"},
+      {"tier": 5, "id": "AOGX"},
+      {"tier": 3, "id": "AABA"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADG"}
+    ]
+  },
+  {
+    "name": "High Elves",
+    "units": [
+      {"tier": 1, "id": "AEBX"},
+      {"tier": 1, "id": "AEIX"},
+      {"tier": 1, "id": "AEMX"},
+      {"tier": 2, "id": "AECX"},
+      {"tier": 3, "id": "AENX"},
+      {"tier": 3, "id": "AEOX"},
+      {"tier": 4, "id": "AEDX"},
+      {"tier": 2, "id": "AEAX"},
+      {"tier": 4, "id": "AAWY"},
+      {"tier": 4, "id": "ASSC"},
+      {"tier": 5, "id": "AEGX"},
+      {"tier": 3, "id": "AAPH"},
+      {"tier": 4, "id": "AAPE"},
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "AADW"}
+    ]
+  },
+  {
+    "name": "Wood Elves",
+    "units": [
+      {"tier": 1, "id": "AEBX"},
+      {"tier": 2, "id": "AEAX"},
+      {"tier": 1, "id": "AWIX"},
+      {"tier": 1, "id": "AWMX"},
+      {"tier": 2, "id": "AWCX"},
+      {"tier": 3, "id": "AWNX"},
+      {"tier": 4, "id": "AWJX"},
+      {"tier": 4, "id": "AWKX"},
+      {"tier": 3, "id": "AEEX"},
+      {"tier": 4, "id": "AASP"},
+      {"tier": 4, "id": "AEXX"},
+      {"tier": 5, "id": "AWGX"},
+      {"tier": 3, "id": "AAPH"},
+      {"tier": 4, "id": "AARI"},
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "AADC"}
+    ]
+  },
+  {
+    "name": "Dark Elves",
+    "units": [
+      {"tier": 1, "id": "AEBX"},
+      {"tier": 2, "id": "AEAX"},
+      {"tier": 1, "id": "AKIX"},
+      {"tier": 1, "id": "AKKX"},
+      {"tier": 2, "id": "AKLX"},
+      {"tier": 1, "id": "AUIX"},
+      {"tier": 1, "id": "AKMX"},
+      {"tier": 2, "id": "AKCX"},
+      {"tier": 3, "id": "AKNX"},
+      {"tier": 3, "id": "AKOX"},
+      {"tier": 4, "id": "AKJX"},
+      {"tier": 3, "id": "AAIM"},
+      {"tier": 3, "id": "AADE"},
+      {"tier": 5, "id": "AKGX"},
+      {"tier": 3, "id": "AAPH"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "AADU"}
+    ]
+  },
+  {
+    "name": "Fey",
+    "units": [
+      {"tier": 1, "id": "AFBX"},
+      {"tier": 1, "id": "AFIX"},
+      {"tier": 2, "id": "AFJX"},
+      {"tier": 2, "id": "AFNX"},
+      {"tier": 2, "id": "AFMX"},
+      {"tier": 3, "id": "AASP"},
+      {"tier": 4, "id": "AEDX"},
+      {"tier": 4, "id": "AEXX"},
+      {"tier": 5, "id": "AFGX"},
+      {"tier": 3, "id": "AALH"},
+      {"tier": 4, "id": "AAPE"},
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "AADG"}
+    ]
+  },
+  {
+    "name": "Dark Dwarves",
+    "units": [
+      {"tier": 1, "id": "AABX"},
+      {"tier": 1, "id": "AAIX"},
+      {"tier": 2, "id": "AAJX"},
+      {"tier": 3, "id": "AASX"},
+      {"tier": 4, "id": "AAWY"},
+      {"tier": 2, "id": "ADNX"},
+      {"tier": 3, "id": "ASCA"},
+      {"tier": 2, "id": "ASBA"},
+      {"tier": 4, "id": "AAMX"},
+      {"tier": 4, "id": "AANX"},
+      {"tier": 5, "id": "AAGX"},
+      {"tier": 3, "id": "AAFB"},
+      {"tier": 4, "id": "AAWY"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADW"}
+    ]
+  },
+  {
+    "name": "Daemons",
+    "units": [
+      {"tier": 1, "id": "AVBX"},
+      {"tier": 1, "id": "AAIM"},
+      {"tier": 2, "id": "AVCX"},
+      {"tier": 2, "id": "AVIX"},
+      {"tier": 2, "id": "AVJX"},
+      {"tier": 3, "id": "AAFB"},
+      {"tier": 4, "id": "AADE"},
+      {"tier": 3, "id": "AVDX"},
+      {"tier": 5, "id": "AVGX"},
+      {"tier": 3, "id": "AAFB"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADB"}
+    ]
+  },
+  {
+    "name": "Empire",
+    "units": [
+      {"tier": 1, "id": "AHBX"},
+      {"tier": 1, "id": "AHIX"},
+      {"tier": 3, "id": "AHJX"},
+      {"tier": 2, "id": "APMX"},
+      {"tier": 2, "id": "AHCX"},
+      {"tier": 3, "id": "APDX"},
+      {"tier": 4, "id": "AHGW"},
+      {"tier": 5, "id": "AHGR"},
+      {"tier": 5, "id": "AHGB"},
+      {"tier": 3, "id": "AAEG"},
+      {"tier": 4, "id": "AARI"},
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "AADW"}
+    ]
+  },
+  {
+    "name": "Plaguelords",
+    "units": [
+      {"tier": 1, "id": "AUBX"},
+      {"tier": 1, "id": "AGPC"},
+      {"tier": 1, "id": "AGSL"},
+      {"tier": 3, "id": "AGSP"},
+      {"tier": 2, "id": "AGGZ"},
+      {"tier": 4, "id": "AGFL"},
+      {"tier": 3, "id": "AGHY"},
+      {"tier": 4, "id": "AGCY"},
+      {"tier": 4, "id": "AGPY"},
+      {"tier": 5, "id": "AGGX"},
+      {"tier": 3, "id": "AADF"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 4, "id": "AAWY"},
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "AADU"}
+    ]
+  },
+  {
+    "name": "Ssrathi",
+    "units": [
+      {"tier": 1, "id": "ALBX"},
+      {"tier": 1, "id": "ALIX"},
+      {"tier": 3, "id": "ALCX"},
+      {"tier": 3, "id": "ALDX"},
+      {"tier": 2, "id": "ALMX"},
+      {"tier": 4, "id": "ALEX"},
+      {"tier": 5, "id": "ALGX"},
+      {"tier": 4, "id": "AAEW"},
+      {"tier": 3, "id": "AADF"},
+      {"tier": 4, "id": "AAPT"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADG"}
+    ]
+  },
+  {
+    "name": "Swarm",
+    "units": [
+      {"tier": 1, "id": "ARBX"},
+      {"tier": 3, "id": "ARIX"},
+      {"tier": 1, "id": "ARJX"},
+      {"tier": 2, "id": "ARMX"},
+      {"tier": 4, "id": "ARCX"},
+      {"tier": 5, "id": "ARGX"},
+      {"tier": 5, "id": "AAEF"},
+      {"tier": 3, "id": "AAWA"},
+      {"tier": 4, "id": "AAHA"},
+      {"tier": 5, "id": "AADR"},
+      {"tier": 5, "id": "AADU"}
+    ]
+  }
+]
