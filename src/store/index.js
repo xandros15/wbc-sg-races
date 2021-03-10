@@ -27,11 +27,11 @@ export default new Vuex.Store({
   actions: {
     loadData ({commit}) {
       try {
-        fetch('/units.json')
+        fetch('./units.json')
           .then(r => r.json())
           .then(units => commit('setUnits', units))
           .catch(e => alert(e))
-        fetch('/races.json')
+        fetch('./races.json')
           .then(r => r.json())
           .then(races => commit('setRaces', races))
           .catch(e => alert(e))
