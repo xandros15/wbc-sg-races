@@ -340,13 +340,13 @@
         },
         "id": "AAEF",
         "name": "Fire Elemental",
-        "hits": 120,
+        "hits": 100,
         "speed": 10,
         "view": 4,
         "combat": 10,
         "armour": 10,
         "resistance": 10,
-        "damage": 25,
+        "damage": 20,
         "range": 8,
         "damageType": "fire",
         "attackType": "both",
@@ -635,8 +635,8 @@
         "combat": 14,
         "armour": 15,
         "resistance": 20,
-        "damage": 50,
-        "range": 10,
+        "damage": 35,
+        "range": 8,
         "damageType": "electricity",
         "attackType": "both",
         "resilience": [
@@ -917,11 +917,11 @@
     },
     {
         "production": {
-            "gold": 30,
+            "gold": 90,
             "metal": 120,
             "stone": 0,
             "crystal": 0,
-            "time": 60
+            "time": 120
         },
         "id": "ABEX",
         "name": "Warlord",
@@ -1154,15 +1154,15 @@
     },
     {
         "production": {
-            "gold": 100,
-            "metal": 100,
+            "gold": 120,
+            "metal": 120,
             "stone": 0,
             "crystal": 0,
-            "time": 100
+            "time": 120
         },
         "id": "ADNX",
         "name": "Ballista",
-        "hits": 50,
+        "hits": 60,
         "speed": 3,
         "view": 8,
         "combat": 8,
@@ -1386,7 +1386,7 @@
         "combat": 15,
         "armour": 15,
         "resistance": 10,
-        "damage": 25,
+        "damage": 20,
         "range": 8,
         "damageType": "piercing",
         "attackType": "both",
@@ -1401,7 +1401,7 @@
             "metal": 25,
             "stone": 0,
             "crystal": 0,
-            "time": 28
+            "time": 30
         },
         "id": "AEIX",
         "name": "Iceguard",
@@ -1445,7 +1445,9 @@
         "resilience": [
             "cold"
         ],
-        "vulnerability": []
+        "vulnerability": [
+            "piercing"
+        ]
     },
     {
         "production": {
@@ -1457,18 +1459,18 @@
         },
         "id": "AENX",
         "name": "Mystic",
-        "hits": 70,
+        "hits": 90,
         "speed": 10,
         "view": 7,
         "combat": 8,
         "armour": 10,
         "resistance": 15,
-        "damage": 20,
+        "damage": 30,
         "range": 6,
         "damageType": "cold",
         "attackType": "both",
         "resilience": [
-            "cold"
+            "electricity"
         ],
         "vulnerability": []
     },
@@ -1698,13 +1700,13 @@
         },
         "id": "AGCY",
         "name": "Cryohydra",
-        "hits": 225,
+        "hits": 275,
         "speed": 12,
         "view": 8,
         "combat": 20,
         "armour": 20,
         "resistance": 20,
-        "damage": 35,
+        "damage": 40,
         "range": 0,
         "damageType": "cold",
         "attackType": "both",
@@ -1723,7 +1725,7 @@
         },
         "id": "AGFL",
         "name": "Flamer",
-        "hits": 75,
+        "hits": 100,
         "speed": 14,
         "view": 15,
         "combat": 10,
@@ -1796,13 +1798,13 @@
         },
         "id": "AGHY",
         "name": "Hydra",
-        "hits": 200,
+        "hits": 250,
         "speed": 13,
         "view": 8,
         "combat": 18,
         "armour": 15,
         "resistance": 15,
-        "damage": 30,
+        "damage": 35,
         "range": 0,
         "damageType": "slashing",
         "attackType": "both",
@@ -1855,7 +1857,7 @@
         "combat": 22,
         "armour": 20,
         "resistance": 20,
-        "damage": 40,
+        "damage": 45,
         "range": 0,
         "damageType": "fire",
         "attackType": "both",
@@ -2066,7 +2068,7 @@
         "view": 7,
         "combat": 10,
         "armour": 5,
-        "resistance": 10,
+        "resistance": 20,
         "damage": 30,
         "range": 6,
         "damageType": "electricity",
@@ -2206,7 +2208,7 @@
     {
         "production": {
             "gold": 0,
-            "metal": 20,
+            "metal": 30,
             "stone": 0,
             "crystal": 0,
             "time": 20
@@ -2525,7 +2527,7 @@
     {
         "production": {
             "gold": 0,
-            "metal": 120,
+            "metal": 100,
             "stone": 10,
             "crystal": 0,
             "time": 60
@@ -2637,7 +2639,7 @@
         "hits": 60,
         "speed": 10,
         "view": 3,
-        "combat": 4,
+        "combat": 5,
         "armour": 10,
         "resistance": 5,
         "damage": 15,
@@ -2837,7 +2839,7 @@
         "view": 7,
         "combat": 10,
         "armour": 10,
-        "resistance": 5,
+        "resistance": 10,
         "damage": 20,
         "range": 0,
         "damageType": "slashing",
@@ -2983,7 +2985,7 @@
             "gold": 50,
             "metal": 0,
             "stone": 50,
-            "crystal": 200,
+            "crystal": 250,
             "time": 80
         },
         "id": "AONX",
@@ -3200,7 +3202,7 @@
         "id": "ARGX",
         "name": "Scorpionpriest",
         "hits": 120,
-        "speed": 14,
+        "speed": 12,
         "view": 11,
         "combat": 12,
         "armour": 10,
@@ -3326,21 +3328,21 @@
     },
     {
         "production": {
-            "gold": 90,
+            "gold": 180,
             "metal": 0,
-            "stone": 90,
+            "stone": 180,
             "crystal": 0,
-            "time": 50
+            "time": 100
         },
         "id": "ASBC",
         "name": "Bone Catapult",
-        "hits": 50,
+        "hits": 100,
         "speed": 1,
         "view": 12,
         "combat": 2,
         "armour": 5,
         "resistance": 15,
-        "damage": 50,
+        "damage": 100,
         "range": 12,
         "damageType": "crushing",
         "attackType": "ground",
@@ -3353,21 +3355,21 @@
     },
     {
         "production": {
-            "gold": 120,
+            "gold": 240,
             "metal": 0,
-            "stone": 60,
+            "stone": 120,
             "crystal": 0,
-            "time": 45
+            "time": 90
         },
         "id": "ASCA",
         "name": "Catapult",
-        "hits": 50,
+        "hits": 100,
         "speed": 1,
         "view": 12,
         "combat": 2,
         "armour": 10,
         "resistance": 0,
-        "damage": 50,
+        "damage": 100,
         "range": 14,
         "damageType": "crushing",
         "attackType": "ground",
@@ -3421,7 +3423,7 @@
         "combat": 4,
         "armour": 15,
         "resistance": 10,
-        "damage": 60,
+        "damage": 50,
         "range": 12,
         "damageType": "piercing",
         "attackType": "both",
