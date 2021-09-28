@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+const THEME_KEY = 'theme'
+const themeName = localStorage.getItem(THEME_KEY) || 'light'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -9,8 +12,13 @@ export default new Vuex.Store({
     races: [],
     currentUnitId: '',
     currentRaceName: '',
+    dark: themeName === 'dark',
   },
   mutations: {
+    toggleTheme (store) {
+      store.dark = !store.dark
+      localStorage.setItem(THEME_KEY, store.dark ? 'dark' : 'light')
+    },
     setUnits (store, units) {
       store.units = units
     },

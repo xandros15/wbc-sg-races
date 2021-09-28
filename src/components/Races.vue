@@ -1,23 +1,23 @@
 <template>
     <div>
-        <table class="table tableFixHead" v-if="race">
-            <thead>
+        <table class="table tableFixHead" :class="{'table-dark': dark}" v-if="race">
+            <thead :class="{'thead-dark': dark}">
             <tr>
-                <th>Name</th>
-                <th>Tier</th>
-                <th>Combat</th>
-                <th>Hits</th>
-                <th>Speed</th>
-                <th>View</th>
-                <th>Damage</th>
-                <th>Range</th>
-                <th>DType</th>
-                <th>AType</th>
-                <th>Armour</th>
-                <th>Resistance</th>
-                <th title="Resilience">Res</th>
-                <th title="Vulnerability">Vul</th>
-                <th>Cost</th>
+                <th scope="col">Name</th>
+                <th scope="col">Tier</th>
+                <th scope="col">Combat</th>
+                <th scope="col">Hits</th>
+                <th scope="col">Speed</th>
+                <th scope="col">View</th>
+                <th scope="col">Damage</th>
+                <th scope="col">Range</th>
+                <th scope="col">DType</th>
+                <th scope="col">AType</th>
+                <th scope="col">Armour</th>
+                <th scope="col">Resistance</th>
+                <th scope="col" title="Resilience">Res</th>
+                <th scope="col" title="Vulnerability">Vul</th>
+                <th scope="col">Cost</th>
             </tr>
             </thead>
             <tbody>
@@ -52,6 +52,7 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex'
   import DamageType from './DamageType'
   import Price from './Price'
 
@@ -59,6 +60,7 @@
     name: 'Races',
     components: {Price, DamageType},
     computed: {
+      ...mapState(['dark']),
       race () {
         const name = this.$store.state.currentRaceName
         if (name) {
@@ -84,6 +86,10 @@
     .d-block {
         display: block;
     }
+    .table {
+        margin-bottom: 0;
+    }
+
     .tableFixHead { overflow-y: auto; height: 100px; }
     .tableFixHead thead th { position: sticky; top: 0; }
 
