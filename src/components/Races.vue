@@ -70,6 +70,9 @@
           const units = []
           for (const ru of raceUnits) {
             const unit = this.$store.state.units.filter(u => u.id === ru.id)[0]
+            if (ru.production) {
+              unit.production = {...unit.production, ...ru.production}
+            }
             units.push({...unit, tier: ru.tier})
           }
 
