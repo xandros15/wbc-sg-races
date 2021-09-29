@@ -46,6 +46,8 @@
         "tier": 5,
         "id": "AHGX"
       },
+      {"tier": 3, "id": "AAEG"},
+      {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADR"},
       {"tier": 5, "id": "AADC"}
     ]
@@ -237,6 +239,8 @@
       {"tier": 3, "id": "AASX"},
       {"tier": 2, "id": "ADNX"},
       {"tier": 3, "id": "ASCA"},
+      {"tier": 3, "id": "AUKX"},
+      {"tier": 3, "id": "AUXX"},
       {"tier": 2, "id": "ASBA"},
       {"tier": 4, "id": "AAMX"},
       {"tier": 4, "id": "AANX"},
@@ -307,9 +311,9 @@
     "units": [
       {"tier": 1, "id": "ALBX"},
       {"tier": 1, "id": "ALIX"},
-      {"tier": 3, "id": "ALCX"},
       {"tier": 3, "id": "ALDX"},
       {"tier": 2, "id": "ALMX"},
+      {"tier": 4, "id": "ALCX"},
       {"tier": 4, "id": "ALEX"},
       {"tier": 5, "id": "ALGX"},
       {"tier": 4, "id": "AAEW"},
