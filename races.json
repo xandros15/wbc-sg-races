@@ -49,7 +49,8 @@
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADC"}
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "ATBX"}
     ]
   },
   {
@@ -70,7 +71,8 @@
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADB"}
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "ATDX"}
     ]
   },
   {
@@ -90,7 +92,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADW"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATUX"}
     ]
   },
   {
@@ -107,7 +110,8 @@
       {"tier": 3, "id": "AALH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATBX"}
     ]
   },
   {
@@ -125,7 +129,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATMX"}
     ]
   },
   {
@@ -145,7 +150,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATOX"}
     ]
   },
   {
@@ -165,7 +171,8 @@
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADC"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATEX"}
     ]
   },
   {
@@ -186,7 +193,8 @@
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADC"}
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "ATWX"}
     ]
   },
   {
@@ -209,7 +217,8 @@
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATKX"}
     ]
   },
   {
@@ -227,7 +236,8 @@
       {"tier": 3, "id": "AALH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADC"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATFX"}
     ]
   },
   {
@@ -248,7 +258,8 @@
       {"tier": 3, "id": "AAFB"},
       {"tier": 4, "id": "AAWY"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATAX"}
     ]
   },
   {
@@ -265,7 +276,8 @@
       {"tier": 3, "id": "AAFB"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADB"}
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "ATVX"}
     ]
   },
   {
@@ -283,7 +295,8 @@
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADG"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATPX"}
     ]
   },
   {
@@ -303,7 +316,8 @@
       {"tier": 4, "id": "AAHA"},
       {"tier": 4, "id": "AAWY"},
       {"tier": 5, "id": "AADG"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATGX"}
     ]
   },
   {
@@ -320,7 +334,8 @@
       {"tier": 3, "id": "AADF"},
       {"tier": 4, "id": "AAPT"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATLX"}
     ]
   },
   {
@@ -336,7 +351,8 @@
       {"tier": 3, "id": "AAWA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATRX"}
     ]
   }
 ]
