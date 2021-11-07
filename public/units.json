@@ -52,10 +52,10 @@
     {
         "production": {
             "gold": 0,
-            "metal": 40,
-            "stone": 40,
+            "metal": 35,
+            "stone": 35,
             "crystal": 0,
-            "time": 25
+            "time": 30
         },
         "id": "AABX",
         "name": "Engineer",
@@ -87,7 +87,7 @@
         "id": "AADB",
         "name": "Storm Dragon",
         "hits": 430,
-        "speed": 15,
+        "speed": 16,
         "view": 15,
         "combat": 20,
         "armour": 15,
@@ -157,8 +157,8 @@
         "production": {
             "gold": 0,
             "metal": 0,
-            "stone": 30,
-            "crystal": 30,
+            "stone": 10,
+            "crystal": 10,
             "time": 20
         },
         "id": "AADF",
@@ -232,10 +232,10 @@
     },
     {
         "production": {
-            "gold": 1500,
+            "gold": 1200,
             "metal": 0,
             "stone": 0,
-            "crystal": 1500,
+            "crystal": 1200,
             "time": 300
         },
         "id": "AADU",
@@ -264,7 +264,7 @@
             "time": 300
         },
         "id": "AADW",
-        "name": "Frost Dragon",
+        "name": "AADW",
         "hits": 410,
         "speed": 15,
         "view": 15,
@@ -318,7 +318,7 @@
         "id": "AAEE",
         "name": "Earth Elemental",
         "hits": 200,
-        "speed": 4,
+        "speed": 12,
         "view": 8,
         "combat": 18,
         "armour": 25,
@@ -327,15 +327,17 @@
         "range": 0,
         "damageType": "crushing",
         "attackType": "ground",
-        "resilience": [],
+        "resilience": [
+            "electricity"
+        ],
         "vulnerability": []
     },
     {
         "production": {
             "gold": 0,
-            "metal": 100,
+            "metal": 80,
             "stone": 0,
-            "crystal": 250,
+            "crystal": 200,
             "time": 80
         },
         "id": "AAEF",
@@ -404,14 +406,16 @@
         "range": 6,
         "damageType": "cold",
         "attackType": "both",
-        "resilience": [],
+        "resilience": [
+            "fire"
+        ],
         "vulnerability": []
     },
     {
         "production": {
-            "gold": 20,
-            "metal": 30,
-            "stone": 0,
+            "gold": 0,
+            "metal": 10,
+            "stone": 20,
             "crystal": 0,
             "time": 20
         },
@@ -420,7 +424,7 @@
         "hits": 20,
         "speed": 14,
         "view": 15,
-        "combat": 3,
+        "combat": 5,
         "armour": 5,
         "resistance": 20,
         "damage": 12,
@@ -455,7 +459,8 @@
         "damageType": "crushing",
         "attackType": "both",
         "resilience": [
-            "piercing"
+            "piercing",
+            "slashing"
         ],
         "vulnerability": []
     },
@@ -521,8 +526,8 @@
         },
         "id": "AAIX",
         "name": "Stone Golem",
-        "hits": 90,
-        "speed": 3,
+        "hits": 100,
+        "speed": 4,
         "view": 7,
         "combat": 6,
         "armour": 15,
@@ -535,7 +540,7 @@
             "piercing"
         ],
         "vulnerability": [
-            "electricity"
+            "cold"
         ]
     },
     {
@@ -548,8 +553,8 @@
         },
         "id": "AAJX",
         "name": "Iron Golem",
-        "hits": 110,
-        "speed": 4,
+        "hits": 100,
+        "speed": 3,
         "view": 7,
         "combat": 8,
         "armour": 20,
@@ -605,7 +610,7 @@
         "hits": 120,
         "speed": 3,
         "view": 8,
-        "combat": 8,
+        "combat": 11,
         "armour": 15,
         "resistance": 10,
         "damage": 70,
@@ -671,21 +676,21 @@
     },
     {
         "production": {
-            "gold": 20,
+            "gold": 30,
             "metal": 0,
             "stone": 0,
-            "crystal": 40,
+            "crystal": 50,
             "time": 50
         },
         "id": "AAPH",
         "name": "Phoenix",
         "hits": 35,
-        "speed": 12,
+        "speed": 9,
         "view": 15,
-        "combat": 3,
+        "combat": 5,
         "armour": 0,
         "resistance": 15,
-        "damage": 6,
+        "damage": 10,
         "range": 6,
         "damageType": "fire",
         "attackType": "both",
@@ -989,8 +994,8 @@
     {
         "production": {
             "gold": 0,
-            "metal": 40,
-            "stone": 40,
+            "metal": 30,
+            "stone": 30,
             "crystal": 0,
             "time": 35
         },
@@ -1027,8 +1032,8 @@
         "speed": 4,
         "view": 8,
         "combat": 16,
-        "armour": 15,
-        "resistance": 15,
+        "armour": 20,
+        "resistance": 20,
         "damage": 60,
         "range": 0,
         "damageType": "slashing",
@@ -1043,7 +1048,7 @@
     {
         "production": {
             "gold": 30,
-            "metal": 60,
+            "metal": 40,
             "stone": 0,
             "crystal": 0,
             "time": 30
@@ -1051,7 +1056,7 @@
         "id": "ADIX",
         "name": "Dwarf Infantry",
         "hits": 80,
-        "speed": 5,
+        "speed": 7,
         "view": 3,
         "combat": 5,
         "armour": 10,
@@ -1078,7 +1083,7 @@
         "id": "ADJX",
         "name": "Dwarf Berserker",
         "hits": 200,
-        "speed": 3,
+        "speed": 4,
         "view": 2,
         "combat": 10,
         "armour": 20,
@@ -1183,9 +1188,9 @@
         "production": {
             "gold": 100,
             "metal": 0,
-            "stone": 200,
-            "crystal": 150,
-            "time": 55
+            "stone": 100,
+            "crystal": 200,
+            "time": 70
         },
         "id": "ADOX",
         "name": "Runelord",
@@ -1221,7 +1226,7 @@
         "id": "ADSX",
         "name": "Dwarf Runner",
         "hits": 40,
-        "speed": 9,
+        "speed": 11,
         "view": 12,
         "combat": 2,
         "armour": 5,
@@ -1250,7 +1255,7 @@
         "hits": 100,
         "speed": 8,
         "view": 7,
-        "combat": 8,
+        "combat": 10,
         "armour": 10,
         "resistance": 20,
         "damage": 20,
@@ -1271,7 +1276,7 @@
             "gold": 0,
             "metal": 0,
             "stone": 0,
-            "crystal": 50,
+            "crystal": 40,
             "time": 30
         },
         "id": "AEBX",
@@ -1465,12 +1470,12 @@
         "combat": 8,
         "armour": 10,
         "resistance": 15,
-        "damage": 30,
+        "damage": 25,
         "range": 6,
         "damageType": "cold",
         "attackType": "both",
         "resilience": [
-            "electricity"
+            "cold"
         ],
         "vulnerability": []
     },
@@ -1586,8 +1591,8 @@
     },
     {
         "production": {
-            "gold": 40,
-            "metal": 30,
+            "gold": 20,
+            "metal": 40,
             "stone": 0,
             "crystal": 0,
             "time": 20
@@ -1667,21 +1672,21 @@
     },
     {
         "production": {
-            "gold": 0,
-            "metal": 20,
+            "gold": 75,
+            "metal": 0,
             "stone": 0,
-            "crystal": 60,
-            "time": 24
+            "crystal": 75,
+            "time": 50
         },
         "id": "AFNX",
         "name": "Leprechaun",
-        "hits": 30,
-        "speed": 14,
+        "hits": 40,
+        "speed": 13,
         "view": 15,
-        "combat": 3,
+        "combat": 5,
         "armour": 0,
         "resistance": 10,
-        "damage": 5,
+        "damage": 8,
         "range": 4,
         "damageType": "magic",
         "attackType": "both",
@@ -1701,7 +1706,7 @@
         "id": "AGCY",
         "name": "Cryohydra",
         "hits": 275,
-        "speed": 12,
+        "speed": 10,
         "view": 8,
         "combat": 20,
         "armour": 20,
@@ -1725,8 +1730,8 @@
         },
         "id": "AGFL",
         "name": "Flamer",
-        "hits": 100,
-        "speed": 14,
+        "hits": 90,
+        "speed": 12,
         "view": 15,
         "combat": 10,
         "armour": 5,
@@ -1775,7 +1780,7 @@
         },
         "id": "AGGZ",
         "name": "Gazer",
-        "hits": 60,
+        "hits": 50,
         "speed": 10,
         "view": 7,
         "combat": 6,
@@ -1798,8 +1803,8 @@
         },
         "id": "AGHY",
         "name": "Hydra",
-        "hits": 250,
-        "speed": 13,
+        "hits": 200,
+        "speed": 11,
         "view": 8,
         "combat": 18,
         "armour": 15,
@@ -1851,8 +1856,8 @@
         },
         "id": "AGPY",
         "name": "Pyrohydra",
-        "hits": 250,
-        "speed": 12,
+        "hits": 300,
+        "speed": 10,
         "view": 8,
         "combat": 22,
         "armour": 20,
@@ -1903,7 +1908,7 @@
         },
         "id": "AGSP",
         "name": "Spore",
-        "hits": 20,
+        "hits": 10,
         "speed": 12,
         "view": 8,
         "combat": 5,
@@ -2422,10 +2427,10 @@
     },
     {
         "production": {
-            "gold": 50,
-            "metal": 25,
+            "gold": 40,
+            "metal": 20,
             "stone": 0,
-            "crystal": 30,
+            "crystal": 20,
             "time": 45
         },
         "id": "AKMX",
@@ -2520,9 +2525,7 @@
         "resilience": [
             "slashing"
         ],
-        "vulnerability": [
-            "cold"
-        ]
+        "vulnerability": []
     },
     {
         "production": {
@@ -2562,7 +2565,7 @@
         "view": 7,
         "combat": 14,
         "armour": 10,
-        "resistance": 5,
+        "resistance": 10,
         "damage": 30,
         "range": 0,
         "damageType": "piercing",
@@ -2680,11 +2683,11 @@
     },
     {
         "production": {
-            "gold": 150,
-            "metal": 150,
-            "stone": 150,
-            "crystal": 150,
-            "time": 90
+            "gold": 200,
+            "metal": 200,
+            "stone": 200,
+            "crystal": 200,
+            "time": 120
         },
         "id": "AMGX",
         "name": "Minotaur King",
@@ -2704,10 +2707,10 @@
     {
         "production": {
             "gold": 0,
-            "metal": 100,
+            "metal": 90,
             "stone": 0,
             "crystal": 0,
-            "time": 45
+            "time": 35
         },
         "id": "AMIX",
         "name": "Minotaur",
@@ -3328,9 +3331,9 @@
     },
     {
         "production": {
-            "gold": 180,
+            "gold": 150,
             "metal": 0,
-            "stone": 180,
+            "stone": 150,
             "crystal": 0,
             "time": 100
         },
@@ -3342,7 +3345,7 @@
         "combat": 2,
         "armour": 5,
         "resistance": 15,
-        "damage": 100,
+        "damage": 75,
         "range": 12,
         "damageType": "crushing",
         "attackType": "ground",
@@ -3355,9 +3358,9 @@
     },
     {
         "production": {
-            "gold": 240,
+            "gold": 200,
             "metal": 0,
-            "stone": 120,
+            "stone": 100,
             "crystal": 0,
             "time": 90
         },
@@ -3433,6 +3436,448 @@
         "vulnerability": [
             "fire"
         ]
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATAX",
+        "name": "Ground",
+        "hits": 950,
+        "speed": 7,
+        "view": 8,
+        "combat": 70,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 160,
+        "range": 0,
+        "damageType": "crushing",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing",
+            "fire",
+            "cold",
+            "electricity",
+            "magic"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATBX",
+        "name": "Tempest",
+        "hits": 800,
+        "speed": 13,
+        "view": 8,
+        "combat": 40,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 90,
+        "range": 8,
+        "damageType": "electricity",
+        "attackType": "both",
+        "resilience": [
+            "electricity"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATDX",
+        "name": "King Khalid",
+        "hits": 900,
+        "speed": 10,
+        "view": 8,
+        "combat": 50,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 90,
+        "range": 10,
+        "damageType": "electricity",
+        "attackType": "both",
+        "resilience": [
+            "cold",
+            "electricity",
+            "fire"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATEX",
+        "name": "Lunarion",
+        "hits": 900,
+        "speed": 15,
+        "view": 8,
+        "combat": 60,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 160,
+        "range": 0,
+        "damageType": "piercing",
+        "attackType": "both",
+        "resilience": [
+            "cold"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATFX",
+        "name": "The Forest Master",
+        "hits": 850,
+        "speed": 18,
+        "view": 8,
+        "combat": 50,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 80,
+        "range": 14,
+        "damageType": "piercing",
+        "attackType": "both",
+        "resilience": [
+            "magic"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATGX",
+        "name": "Lord Antharg",
+        "hits": 975,
+        "speed": 14,
+        "view": 8,
+        "combat": 70,
+        "armour": 30,
+        "resistance": 35,
+        "damage": 150,
+        "range": 0,
+        "damageType": "slashing",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing",
+            "fire",
+            "cold",
+            "electricity",
+            "magic"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATHX",
+        "name": "Sirian",
+        "hits": 950,
+        "speed": 15,
+        "view": 8,
+        "combat": 70,
+        "armour": 30,
+        "resistance": 20,
+        "damage": 140,
+        "range": 0,
+        "damageType": "fire",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing",
+            "fire",
+            "cold",
+            "electricity",
+            "magic"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATKX",
+        "name": "Kargoth",
+        "hits": 820,
+        "speed": 20,
+        "view": 8,
+        "combat": 25,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 90,
+        "range": 10,
+        "damageType": "electricity",
+        "attackType": "both",
+        "resilience": [
+            "cold",
+            "electricity",
+            "fire"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATLX",
+        "name": "Iriki",
+        "hits": 900,
+        "speed": 18,
+        "view": 8,
+        "combat": 50,
+        "armour": 35,
+        "resistance": 30,
+        "damage": 90,
+        "range": 14,
+        "damageType": "fire",
+        "attackType": "both",
+        "resilience": [
+            "cold",
+            "electricity",
+            "fire"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATMX",
+        "name": "Sartek's skull",
+        "hits": 900,
+        "speed": 13,
+        "view": 8,
+        "combat": 50,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 90,
+        "range": 10,
+        "damageType": "electricity",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATPX",
+        "name": "The Lion Throne",
+        "hits": 800,
+        "speed": 16,
+        "view": 8,
+        "combat": 50,
+        "armour": 25,
+        "resistance": 30,
+        "damage": 90,
+        "range": 16,
+        "damageType": "fire",
+        "attackType": "both",
+        "resilience": [
+            "fire"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATOX",
+        "name": "Gornak Elfeater",
+        "hits": 920,
+        "speed": 12,
+        "view": 8,
+        "combat": 50,
+        "armour": 35,
+        "resistance": 30,
+        "damage": 80,
+        "range": 10,
+        "damageType": "cold",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATRX",
+        "name": "Lord Melkor",
+        "hits": 1000,
+        "speed": 15,
+        "view": 8,
+        "combat": 70,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 140,
+        "range": 0,
+        "damageType": "crushing",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing",
+            "fire",
+            "cold",
+            "electricity",
+            "magic"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATUX",
+        "name": "Lord Bane",
+        "hits": 850,
+        "speed": 14,
+        "view": 8,
+        "combat": 50,
+        "armour": 25,
+        "resistance": 30,
+        "damage": 90,
+        "range": 10,
+        "damageType": "fire",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATVX",
+        "name": "Balora",
+        "hits": 850,
+        "speed": 13,
+        "view": 8,
+        "combat": 60,
+        "armour": 30,
+        "resistance": 30,
+        "damage": 130,
+        "range": 0,
+        "damageType": "slashing",
+        "attackType": "both",
+        "resilience": [
+            "cold",
+            "electricity",
+            "fire"
+        ],
+        "vulnerability": []
+    },
+    {
+        "production": {
+            "gold": 1200,
+            "metal": 1200,
+            "stone": 1200,
+            "crystal": 1200,
+            "time": 450
+        },
+        "id": "ATWX",
+        "name": "Ironbark",
+        "hits": 900,
+        "speed": 11,
+        "view": 8,
+        "combat": 70,
+        "armour": 35,
+        "resistance": 30,
+        "damage": 145,
+        "range": 0,
+        "damageType": "crushing",
+        "attackType": "both",
+        "resilience": [
+            "piercing",
+            "slashing",
+            "crushing",
+            "fire",
+            "cold",
+            "electricity",
+            "magic"
+        ],
+        "vulnerability": []
     },
     {
         "production": {
@@ -3538,7 +3983,7 @@
         "damage": 50,
         "range": 0,
         "damageType": "piercing",
-        "attackType": "ground",
+        "attackType": "both",
         "resilience": [
             "cold"
         ],
@@ -3877,7 +4322,7 @@
         },
         "id": "AWCX",
         "name": "Woodrider",
-        "hits": 90,
+        "hits": 100,
         "speed": 18,
         "view": 7,
         "combat": 9,
@@ -3948,7 +4393,7 @@
             "metal": 0,
             "stone": 150,
             "crystal": 0,
-            "time": 100
+            "time": 80
         },
         "id": "AWJX",
         "name": "Treant",
