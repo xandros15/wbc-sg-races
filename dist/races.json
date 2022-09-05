@@ -2,54 +2,22 @@
   {
     "name": "Knights",
     "units": [
-      {
-        "tier": 1,
-        "id": "AHBX"
-      },
-      {
-        "tier": 1,
-        "id": "AHKX"
-      },
-      {
-        "tier": 2,
-        "id": "AHMX"
-      },
-      {
-        "tier": 2,
-        "id": "AHFX"
-      },
-      {
-        "tier": 3,
-        "id": "AHDX"
-      },
-      {
-        "tier": 3,
-        "id": "AHEX"
-      },
-      {
-        "tier": 3,
-        "id": "AHLX"
-      },
-      {
-        "tier": 3,
-        "id": "ASCA"
-      },
-      {
-        "tier": 3,
-        "id": "ASBA"
-      },
-      {
-        "tier": 4,
-        "id": "AAAR"
-      },
-      {
-        "tier": 5,
-        "id": "AHGX"
-      },
+      {"tier": 1, "id": "AHBX"},
+      {"tier": 1, "id": "AHKX"},
+      {"tier": 2, "id": "AHMX"},
+      {"tier": 2, "id": "AHFX"},
+      {"tier": 3, "id": "AHDX"},
+      {"tier": 3, "id": "AHEX"},
+      {"tier": 3, "id": "AHLX"},
+      {"tier": 3, "id": "ASCA"},
+      {"tier": 3, "id": "ASBA"},
+      {"tier": 4, "id": "AAAR"},
+      {"tier": 5, "id": "AHGX"},
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADC"}
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "ATHX"}
     ]
   },
   {
@@ -70,7 +38,8 @@
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADB"}
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "ATDX"}
     ]
   },
   {
@@ -79,10 +48,10 @@
       {"tier": 1, "id": "AUBX"},
       {"tier": 1, "id": "AUIX"},
       {"tier": 1, "id": "AUJX"},
-      {"tier": 2, "id": "AUKX"},
-      {"tier": 2, "id": "AULX"},
+      {"tier": 2, "id": "AUKX", "production": {"time":  1}},
+      {"tier": 3, "id": "AULX"},
       {"tier": 4, "id": "AUMX"},
-      {"tier": 3, "id": "AUXX"},
+      {"tier": 3, "id": "AUXX", "production": {"time":  1}},
       {"tier": 3, "id": "AUCX"},
       {"tier": 4, "id": "AUAX"},
       {"tier": 4, "id": "ASBC"},
@@ -90,7 +59,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADW"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATUX"}
     ]
   },
   {
@@ -107,7 +77,8 @@
       {"tier": 3, "id": "AALH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATBX"}
     ]
   },
   {
@@ -125,7 +96,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATMX"}
     ]
   },
   {
@@ -145,7 +117,8 @@
       {"tier": 3, "id": "AABA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATOX"}
     ]
   },
   {
@@ -165,7 +138,8 @@
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADC"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATEX"}
     ]
   },
   {
@@ -179,14 +153,15 @@
       {"tier": 3, "id": "AWNX"},
       {"tier": 4, "id": "AWJX"},
       {"tier": 4, "id": "AWKX"},
-      {"tier": 3, "id": "AEEX"},
+      {"tier": 2, "id": "AEEX"},
       {"tier": 4, "id": "AASP"},
       {"tier": 4, "id": "AEXX"},
       {"tier": 5, "id": "AWGX"},
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADC"}
+      {"tier": 5, "id": "AADC"},
+      {"tier": 5, "id": "ATWX"}
     ]
   },
   {
@@ -203,13 +178,14 @@
       {"tier": 3, "id": "AKNX"},
       {"tier": 3, "id": "AKOX"},
       {"tier": 4, "id": "AKJX"},
-      {"tier": 3, "id": "AAIM"},
+      {"tier": 4, "id": "AAIM"},
       {"tier": 3, "id": "AADE"},
       {"tier": 5, "id": "AKGX"},
       {"tier": 3, "id": "AAPH"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADB"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATKX"}
     ]
   },
   {
@@ -227,7 +203,8 @@
       {"tier": 3, "id": "AALH"},
       {"tier": 4, "id": "AAPE"},
       {"tier": 5, "id": "AADC"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATFX"}
     ]
   },
   {
@@ -248,7 +225,8 @@
       {"tier": 3, "id": "AAFB"},
       {"tier": 4, "id": "AAWY"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATAX"}
     ]
   },
   {
@@ -265,7 +243,8 @@
       {"tier": 3, "id": "AAFB"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADB"}
+      {"tier": 5, "id": "AADB"},
+      {"tier": 5, "id": "ATVX"}
     ]
   },
   {
@@ -283,7 +262,8 @@
       {"tier": 3, "id": "AAEG"},
       {"tier": 4, "id": "AARI"},
       {"tier": 5, "id": "AADG"},
-      {"tier": 5, "id": "AADW"}
+      {"tier": 5, "id": "AADW"},
+      {"tier": 5, "id": "ATPX"}
     ]
   },
   {
@@ -303,7 +283,8 @@
       {"tier": 4, "id": "AAHA"},
       {"tier": 4, "id": "AAWY"},
       {"tier": 5, "id": "AADG"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATGX"}
     ]
   },
   {
@@ -313,14 +294,15 @@
       {"tier": 1, "id": "ALIX"},
       {"tier": 3, "id": "ALDX"},
       {"tier": 2, "id": "ALMX"},
-      {"tier": 4, "id": "ALCX"},
+      {"tier": 3, "id": "ALCX"},
       {"tier": 4, "id": "ALEX"},
       {"tier": 5, "id": "ALGX"},
       {"tier": 4, "id": "AAEW"},
       {"tier": 3, "id": "AADF"},
       {"tier": 4, "id": "AAPT"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADG"}
+      {"tier": 5, "id": "AADG"},
+      {"tier": 5, "id": "ATLX"}
     ]
   },
   {
@@ -336,7 +318,8 @@
       {"tier": 3, "id": "AAWA"},
       {"tier": 4, "id": "AAHA"},
       {"tier": 5, "id": "AADR"},
-      {"tier": 5, "id": "AADU"}
+      {"tier": 5, "id": "AADU"},
+      {"tier": 5, "id": "ATRX"}
     ]
   }
 ]
