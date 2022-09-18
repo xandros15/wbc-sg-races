@@ -2161,7 +2161,9 @@
         "range": 0,
         "damageType": "electricity",
         "attackType": "ground",
-        "resilience": [],
+        "resilience": [
+            "electricity"
+        ],
         "vulnerability": []
     },
     {
